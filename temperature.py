@@ -8,17 +8,12 @@ Arron Slattery
 
 import urllib2
 import json
-import plotly
 import datetime
 import plotly
 import plotly.plotly as py
-import numpy as np
 
 from plotly.graph_objs import *
 plotly.tools.set_credentials_file(username='ArronS', api_key='qv1bx03xpk')
-
-a = np.sum([1, 2])  # additions to test git functionality of Pycharm
-print a
 
 api_key = '7e3e0da7ab9bd054'
 sf_lookup_url = 'http://api.wunderground.com/api/' + api_key + '/geolookup/conditions/q/CA/San_Francisco.json'
